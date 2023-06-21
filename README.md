@@ -10,6 +10,15 @@ First of all This tool host a phishing site on attacker local network. This tool
 
 ## Installation :
 #### 
+$ pkg install git php 
+
+$ git clone https://https://github.com/Resonex/CamHack.git 
+
+$ cd CamHack
+
+$ bash setup 
+
+$ bash CamHack
 
 
 ### [+] Preview 
