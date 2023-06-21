@@ -1,4 +1,4 @@
-<h2 align="center"><u>CameraHack</u></h2>
+<h2 align="center"><u>Camera Hack</u></h2>
 
 
 <p align="center">
@@ -13,7 +13,7 @@ First of all This tool host a phishing site on attacker local network. This tool
 
 
 ### [+] Preview 
-![Hack anyone's camera and get images](files/ch.gif)
+coming soon !!!
 
 ### [+] Features
  - Two port forwarding option (NGROK or CloudFlare)
@@ -65,7 +65,7 @@ First of all This tool host a phishing site on attacker local network. This tool
 
 
 
-# ■□■ ⚠ Warning ⚠ ■□■
+# ⚠ Warning ⚠ 
 
 ***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
 
